@@ -17,7 +17,7 @@ module.exports = function (search) {
           file.contents = file.contents.pipe(rs(search));
         } else if (file.isBuffer()) {
           result = String(file.contents).match(search) || [];
-          file.contents = new Buffer(JSON.stringify(result));
+          file.contents = new Buffer(JSON.stringify(result, null, ' '));
         }
 
         return callback(null, file);
