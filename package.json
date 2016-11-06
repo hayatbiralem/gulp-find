@@ -1,0 +1,29 @@
+{
+  "name": "gulp-find",
+  "version": "1.0.0",
+  "description": "Find and store data.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hayatbiralem/gulp-find.git"
+  },
+  "keywords": [
+    "gulp",
+    "find",
+    "store",
+    "data"
+  ],
+  "author": "Ömür Yanıkoğlu <hayatbiralem@gmail.com> (http://hayatbiralem.com/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hayatbiralem/gulp-find/issues"
+  },
+  "homepage": "https://github.com/hayatbiralem/gulp-find#readme",
+  "dependencies": {
+    "readable-stream": "2.1.5",
+    "replacestream": "4.0.2"
+  }
+}
